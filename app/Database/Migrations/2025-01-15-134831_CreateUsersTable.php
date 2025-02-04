@@ -3,6 +3,7 @@
 namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
+use CodeIgniter\Database\RawSql;
 
 class CreateUsersTable extends Migration
 {
@@ -10,29 +11,40 @@ class CreateUsersTable extends Migration
     {
         $this->forge->addField([
             'id' => [
-                'type' => 'INT',
-                'constraint' => 11,
+                'type'           => 'INT',
+                'constraint'     => 11,
+                'unsigned'       => true,
                 'auto_increment' => true
             ],
             'name' => [
-                'type' => 'VARCHAR',
-                'constraint' => '255',
+                'type'       => 'VARCHAR',
+                'constraint' => 255,
+                'null'       => false,
             ],
             'username' => [
-                'type' => 'VARCHAR',
-                'constraint' => '255',
+                'type'       => 'VARCHAR',
+                'constraint' => 255,
+                'null'       => false,
+                'unique'     => true,
             ],
             'password' => [
-                'type' => 'VARCHAR',
-                'constraint' => '255',
+                'type'       => 'VARCHAR',
+                'constraint' => 255,
+                'null'       => false,
+            ],
+            'role' => [
+                'type'       => 'VARCHAR',
+                'constraint' => 255,
+                'null'       => false,
             ],
             'created_at' => [
-                'type' => 'DATETIME',
-                'null' => true,
+                'type'    => 'DATETIME',
+                'default' => new RawSql('CURRENT_TIMESTAMP'),
+                'null'    => false,
             ],
             'updated_at' => [
-                'type' => 'DATETIME',
-                'null' => true,
+                'type'    => 'DATETIME',
+                'null'    => true,
             ],
         ]);
         $this->forge->addKey('id', true);

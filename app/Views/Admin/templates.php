@@ -12,10 +12,12 @@
     <link href="<?= base_url() ?>assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
     <link href="<?= base_url() ?>assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
     <link href="<?= base_url() ?>assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" />
+    <link href="<?= base_url() ?>assets/plugins/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
     <!-- loader-->
     <link href="<?= base_url() ?>assets/css/pace.min.css" rel="stylesheet" />
     <script src="<?= base_url() ?>assets/js/pace.min.js"></script>
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="<?= base_url() ?>assets/plugins/notifications/css/lobibox.min.css" />
     <link href="<?= base_url() ?>assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?= base_url() ?>assets/css/bootstrap-extended.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
@@ -52,6 +54,14 @@
                         <div class="menu-title">Dashboard</div>
                     </a>
                 </li>
+                <li>
+                    <a href="<?= base_url('users') ?>">
+                        <div class="parent-icon"><i class='bx bx-group'></i>
+                        </div>
+                        <div class="menu-title">Users</div>
+                    </a>
+                </li>
+
             </ul>
             <!--end navigation-->
         </div>
@@ -437,6 +447,12 @@
     <script src="<?= base_url() ?>assets/plugins/chartjs/js/Chart.min.js"></script>
     <script src="<?= base_url() ?>assets/plugins/chartjs/js/Chart.extension.js"></script>
     <script src="<?= base_url() ?>assets/js/index.js"></script>
+    <script src="<?= base_url() ?>assets/plugins/datatable/js/jquery.dataTables.min.js"></script>
+    <script src="<?= base_url() ?>assets/plugins/datatable/js/dataTables.bootstrap5.min.js"></script>
+    <script src="<?= base_url() ?>assets/plugins/notifications/js/lobibox.min.js"></script>
+    <script src="<?= base_url() ?>assets/plugins/notifications/js/notifications.min.js"></script>
+    <script src="<?= base_url() ?>assets/plugins/notifications/js/notification-custom-script.js"></script>
+    <?= $this->renderSection('script') ?>
     <!--app JS-->
     <script src="<?= base_url() ?>assets/js/app.js"></script>
 </body>

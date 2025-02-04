@@ -1,0 +1,171 @@
+DEBUG - 2025-02-04 14:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-04 14:02:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\ProdukController::$db is deprecated in APPPATH\Controllers\ProdukController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ProdukController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\Project Web\\aplikasi pos\\pos-app\\app-pos\\public\\index.php')
+DEBUG - 2025-02-04 14:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-04 14:02:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\ProdukController::$db is deprecated in APPPATH\Controllers\ProdukController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ProdukController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\Project Web\\aplikasi pos\\pos-app\\app-pos\\public\\index.php')
+DEBUG - 2025-02-04 14:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-04 14:02:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\ProdukController::$db is deprecated in APPPATH\Controllers\ProdukController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ProdukController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\Project Web\\aplikasi pos\\pos-app\\app-pos\\public\\index.php')
+DEBUG - 2025-02-04 14:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-04 14:02:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\ProdukController::$db is deprecated in APPPATH\Controllers\ProdukController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ProdukController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\Project Web\\aplikasi pos\\pos-app\\app-pos\\public\\index.php')
+DEBUG - 2025-02-04 14:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-04 14:12:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\ProdukController::$db is deprecated in APPPATH\Controllers\ProdukController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\ProdukController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\Project Web\\aplikasi pos\\pos-app\\app-pos\\public\\index.php')
+DEBUG - 2025-02-04 14:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 14:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-02-04 14:51:44 --> mysqli_sql_exception: Invalid default value for 'created_at' in E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `u...', 0)
+#1 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 E:\Project Web\aplikasi pos\pos-app\app-pos\app\Database\Migrations\2025-01-15-134831_CreateUsersTable.php(43): CodeIgniter\Database\Forge->createTable('users')
+#5 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateUsersTable->up()
+#6 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\Project Web\aplikasi pos\pos-app\app-pos\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\Project Web\aplikasi pos\pos-app\app-pos\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 E:\Project Web\aplikasi pos\pos-app\app-pos\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-02-04 14:52:15 --> mysqli_sql_exception: Invalid default value for 'created_at' in E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `u...', 0)
+#1 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 E:\Project Web\aplikasi pos\pos-app\app-pos\app\Database\Migrations\2025-01-15-134831_CreateUsersTable.php(43): CodeIgniter\Database\Forge->createTable('users')
+#5 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateUsersTable->up()
+#6 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\Project Web\aplikasi pos\pos-app\app-pos\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\Project Web\aplikasi pos\pos-app\app-pos\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 E:\Project Web\aplikasi pos\pos-app\app-pos\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-02-04 14:52:49 --> mysqli_sql_exception: Invalid default value for 'created_at' in E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `u...', 0)
+#1 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 E:\Project Web\aplikasi pos\pos-app\app-pos\app\Database\Migrations\2025-01-15-134831_CreateUsersTable.php(43): CodeIgniter\Database\Forge->createTable('users')
+#5 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateUsersTable->up()
+#6 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\Project Web\aplikasi pos\pos-app\app-pos\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\Project Web\aplikasi pos\pos-app\app-pos\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 E:\Project Web\aplikasi pos\pos-app\app-pos\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-02-04 14:53:14 --> mysqli_sql_exception: Invalid default value for 'created_at' in E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `u...', 0)
+#1 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 E:\Project Web\aplikasi pos\pos-app\app-pos\app\Database\Migrations\2025-01-15-134831_CreateUsersTable.php(45): CodeIgniter\Database\Forge->createTable('users')
+#5 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateUsersTable->up()
+#6 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\Project Web\aplikasi pos\pos-app\app-pos\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\Project Web\aplikasi pos\pos-app\app-pos\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 E:\Project Web\aplikasi pos\pos-app\app-pos\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 E:\Project Web\aplikasi pos\pos-app\app-pos\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+DEBUG - 2025-02-04 15:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 15:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
