@@ -30,7 +30,7 @@
                                 <th>Name</th>
                                 <th>Date Created</th>
                                 <th>Date Updated</th>
-                                <th>Action</th>
+                                <th class="text-center">Action</th>
                             </tr>
                         </thead>
                         <tbody id="tableUsers">
@@ -43,7 +43,7 @@
                                 <th>Name</th>
                                 <th>Date Created</th>
                                 <th>Date Updated</th>
-                                <th>Action</th>
+                                <th class="text-center">Action</th>
                             </tr>
                         </tfoot>
                     </table>
@@ -87,6 +87,20 @@
         </div>
     </div>
 </div>
+<div class="modal fade" id="editUsersModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content" id="show-form-edit">
+
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="editPasswordUsersModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content" id="show-form-edit-password">
+
+        </div>
+    </div>
+</div>
 <?= $this->endSection('content') ?>
 <?= $this->section('script') ?>
 <script>
@@ -119,6 +133,88 @@
                         $('#addUsersModal').modal('hide')
                         getUser();
                         round_success_noti(data.message);
+                    }
+                }
+            })
+        })
+        $('#tableUsers').on('click', '#btn-delete', function() {
+            var id = $(this).data('id')
+            $.ajax({
+                type: 'POST',
+                url: '<?= base_url('deleteUser') ?>',
+                data: {
+                    id: id,
+                },
+                success: function(data) {
+                    if (data.status == 'success') {
+                        getUser();
+                        round_success_noti(data.message);
+                    } else {
+                        round_error_noti(data.message);
+                    }
+                }
+            })
+        })
+        $('#tableUsers').on('click', '#btn-edit', function() {
+            var id = $(this).data('id')
+            $.ajax({
+                type: 'POST',
+                url: '<?= base_url('getFormEdit') ?>',
+                data: {
+                    id: id,
+                },
+                success: function(data) {
+                    $('#show-form-edit').html(data)
+                    $('#editUsersModal').modal('show')
+                }
+            })
+        })
+        $('#show-form-edit').on('submit', '#formUpdateUsers', function(event) {
+            event.preventDefault();
+            var form = $(this).serialize()
+            $.ajax({
+                type: "POST",
+                url: "<?= base_url('updateUser') ?>",
+                data: form,
+                success: function(data) {
+                    if (data.status == 'success') {
+                        $('#editUsersModal').modal('hide')
+                        getUser();
+                        round_success_noti(data.message);
+                    } else {
+                        round_error_noti(data.message);
+                    }
+                }
+            })
+        })
+        $('#tableUsers').on('click', '#btn-edit-password', function() {
+            var id = $(this).data('id')
+            $.ajax({
+                type: 'POST',
+                url: '<?= base_url('getFormEditPassword') ?>',
+                data: {
+                    id: id,
+                },
+                success: function(data) {
+                    $('#show-form-edit-password').html(data)
+                    $('#editPasswordUsersModal').modal('show')
+                }
+            })
+        })
+        $('#show-form-edit-password').on('submit', '#formUpdatePasswordUsers', function(event) {
+            event.preventDefault();
+            var form = $(this).serialize()
+            $.ajax({
+                type: "POST",
+                url: "<?= base_url('updatePasswordUser') ?>",
+                data: form,
+                success: function(data) {
+                    if (data.status == 'success') {
+                        $('#editPasswordUsersModal').modal('hide')
+                        getUser();
+                        round_success_noti(data.message);
+                    } else {
+                        round_error_noti(data.message);
                     }
                 }
             })

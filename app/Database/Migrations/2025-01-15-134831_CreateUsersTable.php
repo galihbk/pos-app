@@ -37,6 +37,12 @@ class CreateUsersTable extends Migration
                 'constraint' => 255,
                 'null'       => false,
             ],
+            'status' => [
+                'type'       => 'INT',
+                'constraint' => 1,
+                'null'       => false,
+                'default' => 0,
+            ],
             'created_at' => [
                 'type'    => 'DATETIME',
                 'default' => new RawSql('CURRENT_TIMESTAMP'),
