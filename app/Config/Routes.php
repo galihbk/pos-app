@@ -21,4 +21,9 @@ $routes->group('', ['filter' => 'auth:afterLogin'], function ($routes) {
     $routes->post('/updateUser', 'usersController::updateUser');
     $routes->post('/getFormEditPassword', 'usersController::getFormEditPassword');
     $routes->post('/updatePasswordUser', 'usersController::updatePasswordUser');
+    //Menus
+    $routes->get('/menus', 'menusController::index');
+    $routes->get('/getMenus', 'menusController::getMenus');
+    $routes->post('/addMenus', 'menusController::addMenus');
+    $routes->post('/updateAccess', 'menusController::updateAccess');
 });

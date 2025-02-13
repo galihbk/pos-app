@@ -47,21 +47,36 @@
             </div>
             <!--navigation-->
             <ul class="metismenu" id="menu">
-                <li>
-                    <a href="<?= base_url('dashboard') ?>">
-                        <div class="parent-icon"><i class='bx bx-home-circle'></i>
-                        </div>
-                        <div class="menu-title">Dashboard</div>
-                    </a>
-                </li>
-                <li>
-                    <a href="<?= base_url('users') ?>">
-                        <div class="parent-icon"><i class='bx bx-group'></i>
-                        </div>
-                        <div class="menu-title">Users</div>
-                    </a>
-                </li>
-
+                <?php
+                $this->db = \Config\Database::connect();
+                $user = $this->db->table('users')->where('username', $_SESSION['username'])->get()->getRowArray();
+                $menusAccess = $this->db->table('menus_access')->where('role_name', $user['role'])->get()->getResultArray();
+                if ($user['role'] == 'Kasir') {
+                    foreach ($menusAccess as $menu):
+                        $menus = $this->db->table('menus')->where('id', $menu['menu_id'])->get()->getRowArray();
+                ?>
+                        <li>
+                            <a href="<?= base_url('') . $menus['menu_url'] ?>">
+                                <div class="parent-icon"><i class='<?= $menus['menu_icon'] ?>'></i>
+                                </div>
+                                <div class="menu-title"><?= $menus['menu_name'] ?></div>
+                            </a>
+                        </li>
+                    <?php endforeach;
+                } else {
+                    $menu = $this->db->table('menus')->get()->getResultArray();
+                    foreach ($menu as $menus):
+                    ?>
+                        <li>
+                            <a href="<?= base_url('') . $menus['menu_url'] ?>">
+                                <div class="parent-icon"><i class='<?= $menus['menu_icon'] ?>'></i>
+                                </div>
+                                <div class="menu-title"><?= $menus['menu_name'] ?></div>
+                            </a>
+                        </li>
+                <?php
+                    endforeach;
+                } ?>
             </ul>
             <!--end navigation-->
         </div>
